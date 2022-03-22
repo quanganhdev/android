@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidgit/android/drawblecutom/app/src/main/res/drawable/buton.xml" value="0.1115" />
+        <entry key="..\:/androidgit/android/drawblecutom/app/src/main/res/drawable/customcolorbuton.xml" value="0.1" />
+        <entry key="..\:/androidgit/android/drawblecutom/app/src/main/res/drawable/customedittext.xml" value="0.1" />
+        <entry key="..\:/androidgit/android/drawblecutom/app/src/main/res/drawable/selectorbt.xml" value="0.1" />
+        <entry key="..\:/androidgit/android/drawblecutom/app/src/main/res/drawable/textcolor.xml" value="0.1" />
         <entry key="..\:/androidgit/android/drawblecutom/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>

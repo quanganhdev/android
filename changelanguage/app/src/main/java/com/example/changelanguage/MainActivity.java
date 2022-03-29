@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
                 String hoten =  name.getText().toString();
                 String dt =phone.getText().toString();
                 String mail = email.getText().toString();
-                toaftext.setText("chao ban "+ hoten);
+                String texchaoban=getResources().getString(R.string.text_chaoban);
+                toaftext.setText(texchaoban+hoten);
             }
         });
 

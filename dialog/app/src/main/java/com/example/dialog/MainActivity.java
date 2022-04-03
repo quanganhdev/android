@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ListView lvname;
     ArrayList <String> array;
     ArrayAdapter arrayAdapter;
-    TextView dangnhap;
+
 
 
 
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         lvname= (ListView) findViewById(R.id.lis_view);
         array= new ArrayList<>();
         addtoarray();

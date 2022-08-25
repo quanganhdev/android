@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3AFAF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="game1"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:id="@+id/game1"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/poin"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_above="@id/check2"
+        android:layout_height="wrap_content"
+        android:id="@+id/check1"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/check3"
+        android:id="@+id/check2"/>
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <SeekBar
+        android:paddingBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sar3"
+        android:thumb="@drawable/car"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/check3" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sar2"
+        android:thumb="@drawable/fly"
+        android:layout_above="@id/sar3"
+        android:paddingBottom="25dp"
+        android:layout_toRightOf="@id/check2" />
+
+    <SeekBar
+        android:id="@+id/sar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sar2"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/check1"
+        android:paddingBottom="15dp"
+        android:thumb="@drawable/android" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game1"
+        android:src="@drawable/play"
+        android:id="@+id/play"
+        android:layout_marginTop="20px"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
